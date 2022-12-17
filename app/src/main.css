@@ -1,0 +1,5 @@
+.my-app {
+	display: grid;
+	place-items: center;
+	padding-block-end: 3rem;
+}
