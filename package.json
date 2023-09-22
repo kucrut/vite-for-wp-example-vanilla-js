@@ -9,7 +9,7 @@
 		"preview": "vite preview"
 	},
 	"devDependencies": {
-		"@kucrut/vite-for-wp": "^0.5.2",
-		"vite": "^4.0.1"
+		"@kucrut/vite-for-wp": "^0.6.0",
+		"vite": "^4.4.9"
 	}
 }
