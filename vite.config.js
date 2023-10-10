@@ -1,4 +1,6 @@
-import create_config from "@kucrut/vite-for-wp";
+import { v4wp } from "@kucrut/vite-for-wp";
 
 // See https://vitejs.dev/config/
-export default create_config("app/src/main.js", "app/dist");
+export default {
+  plugins: [v4wp({input: "app/src/main.js", outDir: "app/dist"})]
+};
